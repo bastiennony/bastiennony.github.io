@@ -51,14 +51,14 @@ teaching: true
 
 teaching-list:
     proba_stats:
-        name: Probability & statistics (INSA - 2A)
+        name: Probability & statistics (INSA/2MIC)
         description: Conditional probability, independence, random variables, limit theorems and introduction to estimation theory.
     markov_chains:
-        name: Markov Chains (INSA - 3A)
+        name: Markov Chains (INSA/3MIC)
         description: Introduction to Markov chains classification, invariant probability measures and convergence theorems.
     an_optim:
-        name: Numerical Analysis & Optimization (INSA - 3A)
-        description: Introduction to scientific computing with Python for numerical analysis and optimization.
+        name: Numerical Analysis & Optimization (INSA/3MIC)
+        description: Introduction to scientific computing with Python for numerical analysis and optimization. <a href="https://github.com/albangossard/TP-AN-optim-3MIC">Support material</a>.
         url: https://github.com/albangossard/TP-AN-optim-3MIC
 
 # do you want to display a projects section? true or false
