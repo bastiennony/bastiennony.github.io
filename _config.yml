@@ -50,7 +50,8 @@ research-list:
     Conference:
         name: Conference papers and abstracts
         description: HARMO, 2021, Compound parametric metamodelling of large-eddy simulations for microscale atmospheric dispersion. PDF, Slides
-MascotNum Annual Conference, 2021, Metamodelling for micro-scale atmospheric pollutant dispersion large-eddy simulation. Abstract
+
+#MascotNum Annual Conference, 2021, Metamodelling for micro-scale atmospheric pollutant dispersion large-eddy simulation. Abstract
 
 teaching: true
 
