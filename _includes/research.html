@@ -1,5 +1,11 @@
-<ul class="skill-list">
-	{% for skill in site.skills-list %}
-		<li>{{ skill }}</li>
-	{% endfor %}
-</ul>
+<section class="list">
+    {% for research_hash in site.research-list %}
+    {% assign research = research_hash[1] %}
+        <div class="item">
+                <a class="url" href="{{ research.url }}">
+                    <h3 class="title">{{ research.name }}</h3>
+                </a>
+                <p class="description">{{ research.description }}</p>        
+        </div>
+    {% endfor %}
+</section>
