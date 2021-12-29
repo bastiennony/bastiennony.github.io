@@ -1,0 +1,11 @@
+<section class="list">
+    {% for teaching_hash in site.teaching-list %}
+    {% assign teaching = teaching_hash[1] %}
+        <div class="item">
+                <a class="url" href="{{ teaching.url }}">
+                    <h3 class="title">{{ teaching.name }}</h3>
+                </a>
+                <p class="description">{{ teaching.description }}</p>        
+        </div>
+    {% endfor %}
+</section>
