@@ -51,21 +51,18 @@ teaching: true
 
 teaching-list:
     proba_stats:
-        name: Probability & statistics
+        name: Probability & statistics (INSA - 2A)
+        description: Conditional probability, independence, random variables, limit theorems and introduction to estimation theory.
     markov_chains:
-        name: Markov Chains
+        name: Markov Chains (INSA - 3A)
+        description: Introduction to Markov chains classification, invariant probability measures and convergence theorems.
     an_optim:
-        name: Numerical Analysis & Optimization
+        name: Numerical Analysis & Optimization (INSA - 3A)
+        description: Introduction to scientific computing with Python for numerical analysis and optimization.
+        url: https://github.com/albangossard/TP-AN-optim-3MIC
 
 # do you want to display a projects section? true or false
 projects: false
-
-# add your projects here
-#project-list:
-#    Eve:
-#        name: Eve
-#        description: Ultra Minimal Single-page Jekyll Template for Building Personal Portfolio Websites
-#        url: https://github.com/jibolash/Eve
 
 contact: true
 
