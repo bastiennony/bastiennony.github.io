@@ -20,6 +20,28 @@
     {% include skills.html %}
 {% endif %}
 
+{% if site.research %}
+    <nav class="nav-home">
+        <ul class="list">
+            <li class="item">
+                <h2>Research</h2>
+            </li>
+        </ul>
+    </nav>
+    {% include research.html %}
+{% endif %}
+
+{% if site.teaching %}
+    <nav class="nav-home">
+        <ul class="list">
+            <li class="item">
+                <h2>Teaching</h2>
+            </li>
+        </ul>
+    </nav>
+    {% include teaching.html %}
+{% endif %}
+
 {% if site.projects %}
     <nav class="nav-home">
         <ul class="list">
@@ -29,4 +51,15 @@
         </ul>
     </nav>
     {% include projects.html %}
+{% endif %}
+
+{% if site.contact %}
+    <nav class="nav-home">
+        <ul class="list">
+            <li class="item">
+                <h2>Contact</h2>
+            </li>
+        </ul>
+    </nav>
+    {% include contact.html %}
 {% endif %}
