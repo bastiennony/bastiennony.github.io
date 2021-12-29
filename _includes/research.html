@@ -1,11 +1,13 @@
 <section class="list">
-    {% for research_hash in site.research-list %}
-    {% assign research = research_hash[1] %}
         <div class="item">
-                <a class="url" href="{{ research.url }}">
-                    <h3 class="title">{{ research.name }}</h3>
-                </a>
-                <p class="description">{{ research.description }}</p>        
+            <h3 class="title">Conference papers and abstracts</h3>
+                <p class="description">
+                    HARMO, 2021, Compound parametric metamodelling of large-eddy simulations for microscale atmospheric dispersion. 
+                    <a href="https://hal.archives-ouvertes.fr/hal-03443977/document">PDF</a>, 
+                    <a href="https://harmo.org/Conferences/Proceedings/_Tartu/publishedSections/PPT/H20-145_Bastien_Nony_oral.pdf">Slides</a>
+                    <br>
+                    MascotNum Annual Conference, 2021, Metamodelling for micro-scale atmospheric pollutant dispersion large-eddy simulation. 
+                    <a href="https://gdr-mascotnum.fr/media/mascot21_poster-nony.pdf">Abstract</a>
+                </p>        
         </div>
-    {% endfor %}
 </section>
