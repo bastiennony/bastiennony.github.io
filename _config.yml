@@ -43,7 +43,24 @@ skills-list:
 
 research: true
 
+#research-description: The objective of my PhD is to give access to high-fidelity responses of atmospheric pollutant dispersion over complex terrain (in urban areas for instance) and represent associated uncertainties in the event of accidental dispersion.
+#<iframe width="560" height="315" src="https://www.youtube.com/embed/K7Xd3XjwL3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+research-list:
+    Conference:
+        name: Conference papers and abstracts
+        description: HARMO, 2021, Compound parametric metamodelling of large-eddy simulations for microscale atmospheric dispersion. PDF, Slides
+MascotNum Annual Conference, 2021, Metamodelling for micro-scale atmospheric pollutant dispersion large-eddy simulation. Abstract
+
 teaching: true
+
+teaching-list:
+    proba_stats:
+        name: Probability & statistics
+    markov_chains:
+        name: Markov Chains
+    an_optim:
+        name: Numerical Analysis & Optimization
 
 # do you want to display a projects section? true or false
 projects: true
