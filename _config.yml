@@ -15,8 +15,8 @@ social-media: true
 # Add your username for the social media websites listed below
 # If you don't have an account on any of them, comment out the line
 #twitter: mytwitter
-linkedin: https://www.linkedin.com/in/bastien-nony/
-github: https://github.com/bastiennony
+linkedin: bastien-nony
+github: bastiennony
 email: bastien.nony@cerfacs.fr
 
 # do you want a larger site? change the option below
